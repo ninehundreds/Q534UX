@@ -59,7 +59,7 @@
 		5A41635685A9284218BB97E1 /* os_mint.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_mint.icns; sourceTree = "<group>"; };
 		5A416363BE313DC076966627 /* scroll_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_start.png; sourceTree = "<group>"; };
 		5A41637A434C3CE714C28BC1 /* os_hsierra.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_hsierra.icns; sourceTree = "<group>"; };
-		5A41639A3CA8E162527355EB /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = en; path = InfoPlist.strings.txt; sourceTree = "<group>"; };
+		5A41639A3CA8E162527355EB /* en */ = {isa = PBXFileReference; fileEncoding = 2483028224; lastKnownFileType = text; name = en; path = InfoPlist.strings.txt; sourceTree = "<group>"; };
 		5A4163A997B512985EDE6BD8 /* DataHubDxe-64.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = "DataHubDxe-64.efi"; sourceTree = "<group>"; };
 		5A4163AD6E6C51F8F59479A7 /* os_win.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_win.icns; sourceTree = "<group>"; };
 		5A4163C803064029C497091E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +96,7 @@
 		5A4167A52FD7F36BDF4A73D7 /* func_shutdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = func_shutdown.png; sourceTree = "<group>"; };
 		5A4167AA341952E7EB3504DB /* Shell64U.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = Shell64U.efi; sourceTree = "<group>"; };
 		5A4167AA7E970462C5952E44 /* cd_win.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cd_win.icns; sourceTree = "<group>"; };
+		5A4167AC5E895193B4572DF7 /* HFSPlus.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = HFSPlus.efi; sourceTree = "<group>"; };
 		5A4167D45F9E0A653855E74F /* os_ecomstation.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_ecomstation.icns; sourceTree = "<group>"; };
 		5A4167E63E85D410CBFFD338 /* logo_metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_metal.png; sourceTree = "<group>"; };
 		5A4167ED10E93823EA0E0C32 /* vol_optical.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = vol_optical.icns; sourceTree = "<group>"; };
@@ -156,7 +157,7 @@
 		5A416C890A5FECA19F2A6D80 /* RSDP.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = RSDP.aml; sourceTree = "<group>"; };
 		5A416C8D680BD660494060BE /* os_win8.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_win8.icns; sourceTree = "<group>"; };
 		5A416CAFFB9E12E13E522466 /* HowToInstallOSX.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HowToInstallOSX.txt; sourceTree = "<group>"; };
-		5A416CCC6D0A324AC076FEEE /* bcfg.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bcfg.txt; sourceTree = "<group>"; };
+		5A416CCC6D0A324AC076FEEE /* bcfg.txt */ = {isa = PBXFileReference; fileEncoding = 2483028224; lastKnownFileType = text; path = bcfg.txt; sourceTree = "<group>"; };
 		5A416CDF846FD0CF650635DD /* Shell32.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = Shell32.efi; sourceTree = "<group>"; };
 		5A416CEF62457BCC5154BB4B /* OsxFatBinaryDrv-64.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = "OsxFatBinaryDrv-64.efi"; sourceTree = "<group>"; };
 		5A416CF00B85E1F4A3DBB4FD /* cd_mac_snow.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cd_mac_snow.icns; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		5A416DEC678C05F9AD803E3D /* tool_shell.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = tool_shell.icns; sourceTree = "<group>"; };
 		5A416E05927B8BB086B5BE72 /* os_recovery.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_recovery.icns; sourceTree = "<group>"; };
 		5A416E393DAA43829D860D20 /* bdmesg.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = bdmesg.efi; sourceTree = "<group>"; };
+		5A416E3EC1526F638C18DBF9 /* SSDT-DiscreteSpoof.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = "SSDT-DiscreteSpoof.aml"; sourceTree = "<group>"; };
 		5A416E53ADD37941FCB62D99 /* RSDT.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = RSDT.aml; sourceTree = "<group>"; };
 		5A416E5CF87527B4C34F65EE /* selection_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selection_small.png; sourceTree = "<group>"; };
 		5A416E5DCECC5ED01CE3A3FD /* os_suse.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_suse.icns; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 				5A4168F6A051613FC953C7BD /* OsxAptioFix2Drv-64.efi */,
 				5A416CEF62457BCC5154BB4B /* OsxFatBinaryDrv-64.efi */,
 				5A4169195821E72604FA56EE /* AppleKeyAggregator-64.efi */,
+				5A4167AC5E895193B4572DF7 /* HFSPlus.efi */,
 			);
 			path = drivers64UEFI;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 		5A416A7EDBB058F728DA3488 /* patched */ = {
 			isa = PBXGroup;
 			children = (
+				5A416E3EC1526F638C18DBF9 /* SSDT-DiscreteSpoof.aml */,
 			);
 			path = patched;
 			sourceTree = "<group>";
