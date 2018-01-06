@@ -101,7 +101,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1</string>
+		<string>dart=0 nv_disable=1 -v</string>
 		<key>DefaultVolume</key>
 		<string>MacHDD</string>
 		<key>Legacy</key>
