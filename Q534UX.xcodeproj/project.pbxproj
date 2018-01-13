@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		5A41602B40429C1D0323D38A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A41603E3E6495AA3561F711 /* boot_win.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = boot_win.icns; sourceTree = "<group>"; };
+		5A4160497F4358580446973D /* GenericUSBXHCI */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GenericUSBXHCI; sourceTree = "<group>"; };
 		5A41604D966B934A6BA3C922 /* vol_recovery.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = vol_recovery.icns; sourceTree = "<group>"; };
 		5A41604F48512E7E28E3D6BC /* pointer-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointer-black.png"; sourceTree = "<group>"; };
 		5A4160671BFFD5C583DAD4EE /* os_mac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_mac.icns; sourceTree = "<group>"; };
@@ -162,6 +163,7 @@
 		5A416C265BACF24D368FC8B8 /* HFSPlus.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = HFSPlus.efi; sourceTree = "<group>"; };
 		5A416C31D7832CD9EE6A11F5 /* FACP.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = FACP.aml; sourceTree = "<group>"; };
 		5A416C6213D32B9D97BBFAE6 /* SSDT-x2_2-Cpu0Cst.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = "SSDT-x2_2-Cpu0Cst.aml"; sourceTree = "<group>"; };
+		5A416C7F4241148CA32A2354 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A416C890A5FECA19F2A6D80 /* RSDP.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = RSDP.aml; sourceTree = "<group>"; };
 		5A416C8D680BD660494060BE /* os_win8.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_win8.icns; sourceTree = "<group>"; };
 		5A416CAFFB9E12E13E522466 /* HowToInstallOSX.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HowToInstallOSX.txt; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 				5A416A195D9D0060A7A7D61A /* VoodooPS2Controller.kext */,
 				5A4169DC042CC3F44A794C47 /* IntelGraphicsFixup.kext */,
 				5A416B37138F2960A3CA9F23 /* Lilu.kext */,
+				5A4168AC7F6A1B2230108504 /* GenericUSBXHCI.kext */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -597,6 +600,14 @@
 			path = Contents;
 			sourceTree = "<group>";
 		};
+		5A4168AC7F6A1B2230108504 /* GenericUSBXHCI.kext */ = {
+			isa = PBXGroup;
+			children = (
+				5A416C9ABDAFE79182934C7F /* Contents */,
+			);
+			path = GenericUSBXHCI.kext;
+			sourceTree = "<group>";
+		};
 		5A41690DD8BFEC9043910568 /* SystemProductName */ = {
 			isa = PBXGroup;
 			children = (
@@ -777,6 +788,14 @@
 			path = scrollbar;
 			sourceTree = "<group>";
 		};
+		5A416BA906FEFD73D1855D0A /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A4160497F4358580446973D /* GenericUSBXHCI */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
 		5A416BC8243F51A0477CC9F1 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
@@ -817,6 +836,15 @@
 				5A41657229CFEEECB3BBE521 /* VoodooPS2Trackpad.kext */,
 			);
 			path = PlugIns;
+			sourceTree = "<group>";
+		};
+		5A416C9ABDAFE79182934C7F /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				5A416BA906FEFD73D1855D0A /* MacOS */,
+				5A416C7F4241148CA32A2354 /* Info.plist */,
+			);
+			path = Contents;
 			sourceTree = "<group>";
 		};
 		5A416CE42EF838AE32BD7089 /* Contents */ = {
