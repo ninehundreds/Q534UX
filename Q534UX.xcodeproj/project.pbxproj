@@ -91,6 +91,7 @@
 		5A416643BE187A02EA9C4DCA /* pointer-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointer-green.png"; sourceTree = "<group>"; };
 		5A41665405C89C4CA84CE4DD /* AtherosE2200Ethernet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AtherosE2200Ethernet; sourceTree = "<group>"; };
 		5A41666BCFF01C7A64E1A147 /* func_options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = func_options.png; sourceTree = "<group>"; };
+		5A416698376F4518ACA89DA1 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = config.plist; sourceTree = "<group>"; };
 		5A4166AAF35961D7936A6433 /* XSDT.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = XSDT.aml; sourceTree = "<group>"; };
 		5A4166BA83B0B9D60FC263E5 /* tool_shell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tool_shell.png; sourceTree = "<group>"; };
 		5A4166F2A3A672FB21ABDE4A /* RSDT-FACS.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = "RSDT-FACS.aml"; sourceTree = "<group>"; };
@@ -189,7 +190,6 @@
 		5A416E6197F7DE02137EC878 /* os_freebsd.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_freebsd.icns; sourceTree = "<group>"; };
 		5A416EA1CC83428C5F621762 /* osx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = osx.icns; sourceTree = "<group>"; };
 		5A416ED27DD5A6058F78531E /* SMCHelper-64.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = "SMCHelper-64.efi"; sourceTree = "<group>"; };
-		5A416F376693E6CE9DA0AB0F /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = config.plist; sourceTree = "<group>"; };
 		5A416F58DCD27E9DCC16C91D /* HPET.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = HPET.aml; sourceTree = "<group>"; };
 		5A416F805B0950A98B5848CF /* os_win7.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_win7.icns; sourceTree = "<group>"; };
 		5A416F922565F08EEFA5AE2E /* HowToFixDsdt.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HowToFixDsdt.txt; sourceTree = "<group>"; };
@@ -981,7 +981,7 @@
 				5A416A08240B0B34AB537BB9 /* tools */,
 				5A4164133F19A27700B31080 /* ACPI */,
 				5A416CEC8AB8EC57E4F00A5C /* misc */,
-				5A416F376693E6CE9DA0AB0F /* config.plist */,
+				5A416698376F4518ACA89DA1 /* config.plist */,
 			);
 			path = Q534UX;
 			sourceTree = "<group>";
