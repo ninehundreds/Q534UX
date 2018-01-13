@@ -65,6 +65,7 @@
 		5A416363BE313DC076966627 /* scroll_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_start.png; sourceTree = "<group>"; };
 		5A41637A434C3CE714C28BC1 /* os_hsierra.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_hsierra.icns; sourceTree = "<group>"; };
 		5A41639A3CA8E162527355EB /* en */ = {isa = PBXFileReference; fileEncoding = 2483028224; lastKnownFileType = text; name = en; path = InfoPlist.strings.txt; sourceTree = "<group>"; };
+		5A4163A0CA3520EDA3CF4F66 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A4163A997B512985EDE6BD8 /* DataHubDxe-64.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = "DataHubDxe-64.efi"; sourceTree = "<group>"; };
 		5A4163AD6E6C51F8F59479A7 /* os_win.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_win.icns; sourceTree = "<group>"; };
 		5A4163C803064029C497091E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 		5A4169A4D3579EA2825CCCE5 /* SSDT-x2_4-Cpu0Hwp.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = "SSDT-x2_4-Cpu0Hwp.aml"; sourceTree = "<group>"; };
 		5A4169A88E3397BD46A71B35 /* pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer.png; sourceTree = "<group>"; };
 		5A4169BF8DE5473D518A0567 /* MSDM.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = MSDM.aml; sourceTree = "<group>"; };
+		5A4169CB2DD14422144A0616 /* FakePCIID */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FakePCIID; sourceTree = "<group>"; };
 		5A4169D7A14D7DCF127D29C4 /* os_sierra.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_sierra.icns; sourceTree = "<group>"; };
 		5A416A0B6E2488D901A960A8 /* RealtekRTL8111 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RealtekRTL8111; sourceTree = "<group>"; };
 		5A416A419F32CA17A86CABF7 /* scroll_end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_end.png; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		5A416DAF27E497B700F2D2CA /* os_ubuntu.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_ubuntu.icns; sourceTree = "<group>"; };
 		5A416DEC678C05F9AD803E3D /* tool_shell.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = tool_shell.icns; sourceTree = "<group>"; };
 		5A416E05927B8BB086B5BE72 /* os_recovery.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_recovery.icns; sourceTree = "<group>"; };
+		5A416E1B8D4A05359EF6DDC6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A416E393DAA43829D860D20 /* bdmesg.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = bdmesg.efi; sourceTree = "<group>"; };
 		5A416E4867764898EFCEC6AD /* IntelGraphicsFixup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IntelGraphicsFixup; sourceTree = "<group>"; };
 		5A416E53ADD37941FCB62D99 /* RSDT.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = RSDT.aml; sourceTree = "<group>"; };
@@ -295,6 +298,22 @@
 			path = VoodooPS2Mouse.kext;
 			sourceTree = "<group>";
 		};
+		5A4161BE687B7EF6C250B5BF /* MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A4169CB2DD14422144A0616 /* FakePCIID */,
+			);
+			path = MacOS;
+			sourceTree = "<group>";
+		};
+		5A41622D97BCD807FF111BD1 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				5A4163A0CA3520EDA3CF4F66 /* Info.plist */,
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
 		5A41623379493750D9225A55 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +326,8 @@
 				5A4169DC042CC3F44A794C47 /* IntelGraphicsFixup.kext */,
 				5A416B37138F2960A3CA9F23 /* Lilu.kext */,
 				5A4168AC7F6A1B2230108504 /* GenericUSBXHCI.kext */,
+				5A41649D8CD18802FD969317 /* FakePCIID.kext */,
+				5A416E62F0D314AD5B0FEE3C /* FakePCIID_Intel_HD_Graphics.kext */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -354,6 +375,14 @@
 				5A416B708D9A855CFE8C5579 /* apfs.efi */,
 			);
 			path = drivers64UEFI;
+			sourceTree = "<group>";
+		};
+		5A41649D8CD18802FD969317 /* FakePCIID.kext */ = {
+			isa = PBXGroup;
+			children = (
+				5A4167235A7C9D4BFB2B0279 /* Contents */,
+			);
+			path = FakePCIID.kext;
 			sourceTree = "<group>";
 		};
 		5A416506070C5D6A22131363 /* origin */ = {
@@ -494,6 +523,15 @@
 			children = (
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		5A4167235A7C9D4BFB2B0279 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				5A4161BE687B7EF6C250B5BF /* MacOS */,
+				5A416E1B8D4A05359EF6DDC6 /* Info.plist */,
+			);
+			path = Contents;
 			sourceTree = "<group>";
 		};
 		5A41674328B72C7D0878352D /* MacOS */ = {
@@ -908,6 +946,14 @@
 				5A41690DD8BFEC9043910568 /* SystemProductName */,
 			);
 			path = OEM;
+			sourceTree = "<group>";
+		};
+		5A416E62F0D314AD5B0FEE3C /* FakePCIID_Intel_HD_Graphics.kext */ = {
+			isa = PBXGroup;
+			children = (
+				5A41622D97BCD807FF111BD1 /* Contents */,
+			);
+			path = FakePCIID_Intel_HD_Graphics.kext;
 			sourceTree = "<group>";
 		};
 		5A416EF232F801C992146438 /* Contents */ = {
