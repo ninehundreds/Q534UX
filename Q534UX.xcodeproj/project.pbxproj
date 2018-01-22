@@ -39,7 +39,6 @@
 		5A416137325469185436632D /* bar_end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_end.png; sourceTree = "<group>"; };
 		5A41613CED0EB83347178B7C /* func_help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = func_help.png; sourceTree = "<group>"; };
 		5A416150FD542A32671AFF14 /* VoodooPS2Mouse */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VoodooPS2Mouse; sourceTree = "<group>"; };
-		5A416155B6E83148DAB994F6 /* Lilu */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lilu; sourceTree = "<group>"; };
 		5A41615612577DB75462B644 /* vol_internal.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = vol_internal.icns; sourceTree = "<group>"; };
 		5A41617C85890CB8934E5278 /* MCFG.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = MCFG.aml; sourceTree = "<group>"; };
 		5A4161952ADC5E6CFE9EAA94 /* Selection_144px.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Selection_144px.bmp; sourceTree = "<group>"; };
@@ -60,7 +59,6 @@
 		5A4162C7087B08DAB25FE8DA /* vol_netboot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = vol_netboot.icns; sourceTree = "<group>"; };
 		5A416305EB862251F36BB4EA /* os_legacy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_legacy.icns; sourceTree = "<group>"; };
 		5A4163193BA15CA860A849CC /* bar_fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_fill.png; sourceTree = "<group>"; };
-		5A416353E59442DD7A6150B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A41635685A9284218BB97E1 /* os_mint.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_mint.icns; sourceTree = "<group>"; };
 		5A416363BE313DC076966627 /* scroll_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_start.png; sourceTree = "<group>"; };
 		5A41637A434C3CE714C28BC1 /* os_hsierra.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_hsierra.icns; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 		5A416922240F815A48C5FBC3 /* boot1f32-install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "boot1f32-install.sh"; sourceTree = "<group>"; };
 		5A416933DB21CF563E0C18E9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A416940A4C3ACD8A7F15E5D /* func_reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = func_reset.png; sourceTree = "<group>"; };
-		5A41695664238BB84CF65DBE /* USBInjectAll */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = USBInjectAll; sourceTree = "<group>"; };
 		5A4169692D8CC5B56D11B81F /* DSDT.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = DSDT.aml; sourceTree = "<group>"; };
 		5A4169A336A77273CBAAF917 /* LPIT.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = LPIT.aml; sourceTree = "<group>"; };
 		5A4169A4D3579EA2825CCCE5 /* SSDT-x2_4-Cpu0Hwp.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = "SSDT-x2_4-Cpu0Hwp.aml"; sourceTree = "<group>"; };
@@ -141,7 +138,6 @@
 		5A416AE6A7E781DC8E2284DD /* WSMT.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = WSMT.aml; sourceTree = "<group>"; };
 		5A416AF3F3D7398077B95883 /* OtherMac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = OtherMac.icns; sourceTree = "<group>"; };
 		5A416B018BA902DA1ADE616B /* os_cougar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_cougar.icns; sourceTree = "<group>"; };
-		5A416B05652A76CCAD22D711 /* IntelMausiEthernet */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IntelMausiEthernet; sourceTree = "<group>"; };
 		5A416B20232ABCB18F03402D /* os_cap.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_cap.icns; sourceTree = "<group>"; };
 		5A416B2590E1674051F59130 /* VoodooPS2Trackpad */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VoodooPS2Trackpad; sourceTree = "<group>"; };
 		5A416B2D68F7965BB293AECB /* VBoxHfs-64.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = "VBoxHfs-64.efi"; sourceTree = "<group>"; };
@@ -161,7 +157,6 @@
 		5A416BDA13017256C89F131A /* FIDT.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = FIDT.aml; sourceTree = "<group>"; };
 		5A416BE4E217D2FA4DDE949F /* os_winxp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_winxp.icns; sourceTree = "<group>"; };
 		5A416BF08E7DBA26640C00D1 /* os_lion.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_lion.icns; sourceTree = "<group>"; };
-		5A416C062FC729F4F8D45E34 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A416C25E51E9C11864BC191 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		5A416C265BACF24D368FC8B8 /* HFSPlus.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = HFSPlus.efi; sourceTree = "<group>"; };
 		5A416C31D7832CD9EE6A11F5 /* FACP.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = FACP.aml; sourceTree = "<group>"; };
@@ -178,15 +173,12 @@
 		5A416D0F0FE1FE0C3C32E52A /* Selection_64px.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Selection_64px.bmp; sourceTree = "<group>"; };
 		5A416D4E05AF5EE6B5CAC8FF /* RSDT-FACP.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = "RSDT-FACP.aml"; sourceTree = "<group>"; };
 		5A416D4EA09A371E56DDBC63 /* vol_clover.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = vol_clover.icns; sourceTree = "<group>"; };
-		5A416D71C94785DA42150D7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A416D92F5B856AB89BECE86 /* func_about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = func_about.png; sourceTree = "<group>"; };
-		5A416D9F6CD3B21208E25E85 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A416DAF27E497B700F2D2CA /* os_ubuntu.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_ubuntu.icns; sourceTree = "<group>"; };
 		5A416DEC678C05F9AD803E3D /* tool_shell.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = tool_shell.icns; sourceTree = "<group>"; };
 		5A416E05927B8BB086B5BE72 /* os_recovery.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_recovery.icns; sourceTree = "<group>"; };
 		5A416E1B8D4A05359EF6DDC6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		5A416E393DAA43829D860D20 /* bdmesg.efi */ = {isa = PBXFileReference; lastKnownFileType = file.efi; path = bdmesg.efi; sourceTree = "<group>"; };
-		5A416E4867764898EFCEC6AD /* IntelGraphicsFixup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IntelGraphicsFixup; sourceTree = "<group>"; };
 		5A416E53ADD37941FCB62D99 /* RSDT.aml */ = {isa = PBXFileReference; lastKnownFileType = file.aml; path = RSDT.aml; sourceTree = "<group>"; };
 		5A416E5CF87527B4C34F65EE /* selection_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selection_small.png; sourceTree = "<group>"; };
 		5A416E5DCECC5ED01CE3A3FD /* os_suse.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = os_suse.icns; sourceTree = "<group>"; };
@@ -219,14 +211,6 @@
 				5A41665405C89C4CA84CE4DD /* AtherosE2200Ethernet */,
 			);
 			path = MacOS;
-			sourceTree = "<group>";
-		};
-		5A41602F0804840E4F14406D /* IntelMausiEthernet.kext */ = {
-			isa = PBXGroup;
-			children = (
-				5A416EF232F801C992146438 /* Contents */,
-			);
-			path = IntelMausiEthernet.kext;
 			sourceTree = "<group>";
 		};
 		5A41607A264BE497736D7BAE /* Contents */ = {
@@ -318,13 +302,9 @@
 			isa = PBXGroup;
 			children = (
 				5A416A51BD561692872804AD /* FakeSMC.kext */,
-				5A416E105C2DC1A7618A0011 /* USBInjectAll.kext */,
 				5A416B066589DA2F33B4BCD0 /* RealtekRTL8111.kext */,
-				5A41602F0804840E4F14406D /* IntelMausiEthernet.kext */,
 				5A416D607281E0A98DDD1D27 /* AtherosE2200Ethernet.kext */,
 				5A416A195D9D0060A7A7D61A /* VoodooPS2Controller.kext */,
-				5A4169DC042CC3F44A794C47 /* IntelGraphicsFixup.kext */,
-				5A416B37138F2960A3CA9F23 /* Lilu.kext */,
 				5A4168AC7F6A1B2230108504 /* GenericUSBXHCI.kext */,
 				5A41649D8CD18802FD969317 /* FakePCIID.kext */,
 				5A416E62F0D314AD5B0FEE3C /* FakePCIID_Intel_HD_Graphics.kext */,
@@ -433,14 +413,6 @@
 			isa = PBXGroup;
 			children = (
 				5A416B2590E1674051F59130 /* VoodooPS2Trackpad */,
-			);
-			path = MacOS;
-			sourceTree = "<group>";
-		};
-		5A416568DC4EAA1E50842EC7 /* MacOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A41695664238BB84CF65DBE /* USBInjectAll */,
 			);
 			path = MacOS;
 			sourceTree = "<group>";
@@ -621,14 +593,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		5A4168690519B1554FCDA6A8 /* MacOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A416155B6E83148DAB994F6 /* Lilu */,
-			);
-			path = MacOS;
-			sourceTree = "<group>";
-		};
 		5A4168A9E7F61985B8913F53 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
@@ -656,15 +620,6 @@
 				5A416ACE3D33E3BB58D1A897 /* config-sample.plist */,
 			);
 			path = SystemProductName;
-			sourceTree = "<group>";
-		};
-		5A416913A28BD76D762DF908 /* Contents */ = {
-			isa = PBXGroup;
-			children = (
-				5A416A625F15BF5FDFE3B1E4 /* MacOS */,
-				5A416D9F6CD3B21208E25E85 /* Info.plist */,
-			);
-			path = Contents;
 			sourceTree = "<group>";
 		};
 		5A416942DD59D7F2BDDF0442 /* kexts */ = {
@@ -698,14 +653,6 @@
 			children = (
 			);
 			path = WINDOWS;
-			sourceTree = "<group>";
-		};
-		5A4169DC042CC3F44A794C47 /* IntelGraphicsFixup.kext */ = {
-			isa = PBXGroup;
-			children = (
-				5A416913A28BD76D762DF908 /* Contents */,
-			);
-			path = IntelGraphicsFixup.kext;
 			sourceTree = "<group>";
 		};
 		5A4169DFEA3E9619FC3F8C02 /* embedded */ = {
@@ -745,22 +692,6 @@
 			path = FakeSMC.kext;
 			sourceTree = "<group>";
 		};
-		5A416A625F15BF5FDFE3B1E4 /* MacOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A416E4867764898EFCEC6AD /* IntelGraphicsFixup */,
-			);
-			path = MacOS;
-			sourceTree = "<group>";
-		};
-		5A416A740CD440EFC9FDDC0D /* MacOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A416B05652A76CCAD22D711 /* IntelMausiEthernet */,
-			);
-			path = MacOS;
-			sourceTree = "<group>";
-		};
 		5A416A7EDBB058F728DA3488 /* patched */ = {
 			isa = PBXGroup;
 			children = (
@@ -787,14 +718,6 @@
 				5A4164F7837CACDBB00434B9 /* UEFI boot with Clover.rtf */,
 			);
 			path = doc;
-			sourceTree = "<group>";
-		};
-		5A416B37138F2960A3CA9F23 /* Lilu.kext */ = {
-			isa = PBXGroup;
-			children = (
-				5A416C09BF52B9E4FFB2A87B /* Contents */,
-			);
-			path = Lilu.kext;
 			sourceTree = "<group>";
 		};
 		5A416B5B277285E0CD4BA56A /* tonymacx86 */ = {
@@ -850,15 +773,6 @@
 			path = ROM;
 			sourceTree = "<group>";
 		};
-		5A416C09BF52B9E4FFB2A87B /* Contents */ = {
-			isa = PBXGroup;
-			children = (
-				5A4168690519B1554FCDA6A8 /* MacOS */,
-				5A416D71C94785DA42150D7E /* Info.plist */,
-			);
-			path = Contents;
-			sourceTree = "<group>";
-		};
 		5A416C0A4D0A1F23069D5003 /* patched */ = {
 			isa = PBXGroup;
 			children = (
@@ -885,15 +799,6 @@
 			path = Contents;
 			sourceTree = "<group>";
 		};
-		5A416CE42EF838AE32BD7089 /* Contents */ = {
-			isa = PBXGroup;
-			children = (
-				5A416568DC4EAA1E50842EC7 /* MacOS */,
-				5A416C062FC729F4F8D45E34 /* Info.plist */,
-			);
-			path = Contents;
-			sourceTree = "<group>";
-		};
 		5A416CEC8AB8EC57E4F00A5C /* misc */ = {
 			isa = PBXGroup;
 			children = (
@@ -916,14 +821,6 @@
 				5A416FE12A3CCA141362AE33 /* Info.plist */,
 			);
 			path = Contents;
-			sourceTree = "<group>";
-		};
-		5A416E105C2DC1A7618A0011 /* USBInjectAll.kext */ = {
-			isa = PBXGroup;
-			children = (
-				5A416CE42EF838AE32BD7089 /* Contents */,
-			);
-			path = USBInjectAll.kext;
 			sourceTree = "<group>";
 		};
 		5A416E1D7A9F8AA0DFE2B9B2 /* Other */ = {
@@ -954,15 +851,6 @@
 				5A41622D97BCD807FF111BD1 /* Contents */,
 			);
 			path = FakePCIID_Intel_HD_Graphics.kext;
-			sourceTree = "<group>";
-		};
-		5A416EF232F801C992146438 /* Contents */ = {
-			isa = PBXGroup;
-			children = (
-				5A416A740CD440EFC9FDDC0D /* MacOS */,
-				5A416353E59442DD7A6150B6 /* Info.plist */,
-			);
-			path = Contents;
 			sourceTree = "<group>";
 		};
 		5A416EF462649A226EDDF52D /* ACPI */ = {
